@@ -1,0 +1,22 @@
+{
+  "name": "MathPod",
+  "version": "0.1.0",
+  "summary": "This is my first swift pod. I am enjoying it!",
+  "description": "This is my first swift pod. This pod will contain math functions",
+  "homepage": "https://github.com/crazyswap/MathPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Swapnil Patil": ""
+  },
+  "source": {
+    "git": "https://github.com/crazyw/MathPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MathPod/Classes/**/*"
+}

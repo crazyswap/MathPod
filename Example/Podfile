@@ -4,7 +4,7 @@ target 'MathPod_Example' do
   pod 'MathPod', :path => '../'
 
   target 'MathPod_Tests' do
-    inherit! :search_paths
+    pod 'MathPod', :path => '../'
 
     pod 'Quick', '~> 0.8'
   pod 'Nimble', '~> 3.0'

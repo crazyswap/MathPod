@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B55F4C9E0C6BD9B6BF4EFF56 /* Pods_MathPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FCFBC35BE9EFACA7A0B7F3 /* Pods_MathPod_Example.framework */; };
+		C9C151CCE8303E580EA8025A /* Pods_MathPod_Example_MathPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E7F78E301D71A30279F7BB /* Pods_MathPod_Example_MathPod_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2C5B5182497C8ECA6CC236 /* Pods-MathPod_Example-MathPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPod_Example-MathPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathPod_Example-MathPod_Tests/Pods-MathPod_Example-MathPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A91440B17E3E084A94BC92F /* Pods-MathPod_Example-MathPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPod_Example-MathPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathPod_Example-MathPod_Tests/Pods-MathPod_Example-MathPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		34FCFBC35BE9EFACA7A0B7F3 /* Pods_MathPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF7916DEB84D9F25F6DE2A /* MathPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MathPod.podspec; path = ../MathPod.podspec; sourceTree = "<group>"; };
 		4B0F427861300A7F2CB382F1 /* Pods-MathPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathPod_Example/Pods-MathPod_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		A67548159D72FFB6DAFA51D3 /* Pods-MathPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathPod_Tests/Pods-MathPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BDEB07D46E5C2633FB1FAB61 /* Pods_MathPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE19EC2178DE5BD5F71E935F /* Pods-MathPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathPod_Tests/Pods-MathPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9E7F78E301D71A30279F7BB /* Pods_MathPod_Example_MathPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathPod_Example_MathPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE1CF3A3B54090241FC0717 /* Pods-MathPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathPod_Example/Pods-MathPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				387459A1C611BCB57D68EB46 /* Pods_MathPod_Tests.framework in Frameworks */,
+				C9C151CCE8303E580EA8025A /* Pods_MathPod_Example_MathPod_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +151,8 @@
 				4B0F427861300A7F2CB382F1 /* Pods-MathPod_Example.release.xcconfig */,
 				DE19EC2178DE5BD5F71E935F /* Pods-MathPod_Tests.debug.xcconfig */,
 				A67548159D72FFB6DAFA51D3 /* Pods-MathPod_Tests.release.xcconfig */,
+				2A91440B17E3E084A94BC92F /* Pods-MathPod_Example-MathPod_Tests.debug.xcconfig */,
+				1D2C5B5182497C8ECA6CC236 /* Pods-MathPod_Example-MathPod_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -155,6 +162,7 @@
 			children = (
 				34FCFBC35BE9EFACA7A0B7F3 /* Pods_MathPod_Example.framework */,
 				BDEB07D46E5C2633FB1FAB61 /* Pods_MathPod_Tests.framework */,
+				F9E7F78E301D71A30279F7BB /* Pods_MathPod_Example_MathPod_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -289,7 +297,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathPod_Tests/Pods-MathPod_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathPod_Example-MathPod_Tests/Pods-MathPod_Example-MathPod_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		54B4EA6F26BA842B7535436F /* 📦 Check Pods Manifest.lock */ = {
@@ -319,7 +327,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathPod_Tests/Pods-MathPod_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathPod_Example-MathPod_Tests/Pods-MathPod_Example-MathPod_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BC085C140B02B866547C9B73 /* 📦 Embed Pods Frameworks */ = {
@@ -512,7 +520,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE19EC2178DE5BD5F71E935F /* Pods-MathPod_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2A91440B17E3E084A94BC92F /* Pods-MathPod_Example-MathPod_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -531,7 +539,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A67548159D72FFB6DAFA51D3 /* Pods-MathPod_Tests.release.xcconfig */;
+			baseConfigurationReference = 1D2C5B5182497C8ECA6CC236 /* Pods-MathPod_Example-MathPod_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

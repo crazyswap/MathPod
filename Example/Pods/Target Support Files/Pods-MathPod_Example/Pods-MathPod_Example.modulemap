@@ -1,0 +1,6 @@
+framework module Pods_MathPod_Example {
+  umbrella header "Pods-MathPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

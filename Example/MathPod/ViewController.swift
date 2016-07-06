@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import MathPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let operations = Operations()
+        let result:NSInteger = operations.addition(2,number2: 2)
+        print("result is::" , result)
+        
     }
 
     override func didReceiveMemoryWarning() {

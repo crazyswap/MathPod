@@ -1,0 +1,6 @@
+framework module MathPod {
+  umbrella header "MathPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

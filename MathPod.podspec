@@ -9,23 +9,14 @@
 Pod::Spec.new do |s|
   s.name             = 'MathPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MathPod.'
+  s.summary          = 'This is my first swift pod. I am enjoying it!'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/MathPod'
+  s.description      = 'This is my first swift pod. This pod will contain math functions'
+  s.homepage         = 'https://github.com/crazyswap/MathPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Swapnil Patil' => 'Swapnil.Patil@firstdata.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/MathPod.git', :tag => s.version.to_s }
+  s.author           = { 'Swapnil Patil' => '' }
+  s.source           = { :git => 'https://github.com/crazyw/MathPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
