@@ -22,7 +22,7 @@ pod "MathPod"
 
 ## Author
 
-Swapnil Patil, Swapnil.Patil@firstdata.com
+Swapnil Patil
 
 ## License
 
